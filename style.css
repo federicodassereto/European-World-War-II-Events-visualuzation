@@ -1,0 +1,66 @@
+path {
+    stroke: white;
+    stroke-width: 0.25px;
+    fill: #BDBDBD;
+    opacity: 0.9;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    color: #01579B;
+    margin-left: 2%;
+    margin-bottom: auto;
+    font-family: Sans-Serif;
+}
+
+a{
+
+    font-family: Amiko;
+    color: #01579B;
+    width: 450px;
+    font-size: 1.5em;
+    text-shadow: 0.03em 0.03em 0.03em grey;
+}
+
+text{
+    font-family: Amiko;
+
+}
+
+#names{
+    font-family: Amiko;
+    color: #01579B;
+    font-size: 1em;
+    margin-left: 2%;
+
+}
+
+
+#tooltip {
+    font-family: Amiko;
+    font-size: 1em;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    border-style: groove;
+}
+
+.options {
+    background-color: #F5F5F5;
+    border: 1px solid  #737373;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Amiko;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
+    text-shadow: 0.5px 0.5px 1px grey;
+}

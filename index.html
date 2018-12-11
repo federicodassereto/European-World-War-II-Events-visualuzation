@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>15 - World War II</title>
+</head>
+<body>
+
+<header>
+    <h1>15 - World War II</h1>
+    <a style="margin-left: 2%">90529 - Data Visualization</a>
+    <div id="names">Federico Dassereto &nbsp; 3922668 &nbsp; &nbsp; &nbsp; Camilla Robino &nbsp; 3707993</div>
+</header>
+
+<br>
+
+<div style="width:80em; margin-left:2%; margin-bottom: 1.5%">
+
+
+<span id="buttons" style="width: 40%; margin-left: 0%">
+    <button class='options'   id='home' onclick="home()"> Home </button>&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class='options'  onclick="stacked()"> Faction </button> &nbsp;
+    <button class='options'  onclick="BubbleChart()"> Deaths </button>
+    <button class='options'  id='jewish' onclick="jewish()">Holocaust</button> &nbsp;
+
+</span>
+    &nbsp; &nbsp; &nbsp;
+    <span id="homeTitleSpan" style="width:52%; margin-left:8%; margin-right: 2%">
+    <a id="homeTitle"  >Europe in February, 1938</a>
+</span>
+
+
+
+    <select id='selectStack' class='options'onchange="stacked(this.options[this.selectedIndex].value)" style="width:10%; margin-left:0%; visibility: hidden;">
+        <option value="Allies">Allies</option>
+        <option value="Axis">Axis</option>
+        <option value="Axis-occupied">Axis-occupied</option>
+    </select>
+</div>
+
+<link href="style.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+<script type="text/javascript" src="d3/d3.js"></script>
+<script src="//d3js.org/topojson.v3.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
