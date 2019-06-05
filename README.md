@@ -2,7 +2,7 @@
 
 An interactive visualization of the events occured in Europe during the Second World War.
 
-![Alt text](home.png?raw=true "Title")
+![Alt text](home.png?raw=true "Home visualization")
 
 This visualization has been developed as final project of the Data Visualization course of "Università degli Studi di Genova", during the Master in Data Science and Engineering.
 
@@ -34,11 +34,12 @@ The top menu allows user to choose among different kind of visualization:
 
 
 ### Home
-The left side of the visualization allows users to select a country and visualize a brief description of its action during the war. It is also possible to move back and forth in time exploiting the timeline on the bottom, which zoomable and draggable to change the map, at month granularity. While moving in time, the map changes with respect to the events. Also the country are differently colored.
+The left side of the visualization allows users to select a country and visualize a brief description of its action during the war. It is also possible to move back and forth in time exploiting the timeline on the bottom, which zoomable and draggable to change the map, at month granularity. While moving in time, the map changes with respect to the events. Also the countris are differently colored over time.
 
 ### Factions
 
 ### Deaths
+The classical home map is colored with a logarithmic green-scale and it is associated with a bubble chart in the right side. The bubble chart is interactive too, hovering over a bubble shows the name of the country and the total deaths count. While moving on the map, hovering a country leads to the higlight of the corresponding bubble in the right panel.
 
 ### Holocaust
 
