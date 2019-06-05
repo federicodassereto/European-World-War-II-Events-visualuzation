@@ -42,4 +42,4 @@ The left side of the visualization allows users to select a country and visualiz
 The classical home map is colored with a logarithmic green-scale and it is associated with a bubble chart in the right side. The bubble chart is interactive too, hovering over a bubble shows the name of the country and the total deaths count. While moving on the map, hovering a country leads to the higlight of the corresponding bubble in the right panel.
 
 ### Holocaust
-
+Similarly to the Deaths window, the map is colored with a logarithmic violet-scale and it is associated with a bubble chart in the right side. All the features provided in the previous visualization are replicated.
