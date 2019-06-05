@@ -2,9 +2,10 @@
 
 An interactive visualization of the events occured in Europe during the Second World War.
 
+![Alt text](home.png?raw=true "Title")
+
 This visualization has been developed as final project of the Data Visualization course of "Università degli Studi di Genova", during the Master in Data Science and Engineering.
 
-![Alt text](home.png?raw=true "Title")
 
 ## Getting Started
 
