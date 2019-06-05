@@ -15,6 +15,8 @@ Download and extract the content of the project, or alternatively:
 git clone https://github.com/federicodassereto/European-World-War-II-Events-visualuzation.git
 ```
 
+To run the visualization, a web server is required.
+
 ## Related notes
 
 The project has been developed using d3.js (version 3). This version of the library is included in the folder d3/ .
