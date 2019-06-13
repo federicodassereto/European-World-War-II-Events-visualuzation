@@ -29,7 +29,7 @@ The project has been developed using d3.js (version 3). This version of the libr
 
 The visualization provides and interactive map of Europe between May, 1939 and May, 1945.
 
-The top menu allows user to choose among different kind of visualization:
+The top menu allows users to choose among different kind of visualization:
   * Home, territorial domains and sides for each country during the war;
   * Factions, a description of how long each country stayed in a specific faction;
   * Deaths, total deaths during the war period;
@@ -37,7 +37,7 @@ The top menu allows user to choose among different kind of visualization:
 
 
 ### Home
-The left side of the visualization allows users to select a country and visualize a brief description of its action during the war. It is also possible to move back and forth in time exploiting the timeline on the bottom, which zoomable and draggable to change the map, at month granularity. While moving in time, the map changes with respect to the events. Also the countris are differently colored over time.
+The left side of the visualization allows users to select a country and visualize a brief description of its action during the war. It is also possible to move back and forth in time exploiting the timeline on the bottom, which is zoomable and draggable, to change the map at month granularity. While moving in time, the map changes with respect to the events. Also the countries are differently colored over time.
 
 ### Factions
 
